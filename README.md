@@ -1,4 +1,12 @@
-# homework-manager
+# Homework Manager for SOL
+
+![Homework Manager](https://imgur.com/mjLMYNz "サンプル")
+
+## How to use
+
+Click "Add homework by parsing text" and paste your homework from SOL.
+
+When you finish your homework, click "MARK AS DONE" button.
 
 ## Docker project setup (Recommended)
 
