@@ -1,6 +1,6 @@
 # Homework Manager for SOL
 
-![Homework Manager](https://i.imgur.com/mjLMYNz.png)
+![Homework Manager](https://i.imgur.com/EkZY2jj.png)
 
 ## How to use
 
