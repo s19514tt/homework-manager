@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  hwmanager-server:
+    build:
+      context: server
+    image: hwmanager-server
+    container_name: 'hwmanager-server'
+    volumes:
+      - ./data/:/usr/src/app/data/
+  hwmanager-client:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: 'hwmanager-client'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
